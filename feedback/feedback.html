@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>FEEDBACK FORM</h1>
+      <form id="complaint-form">
+        <label for="Name">Name</label>
+        <input type="text" name="name" value="Enter your Name"><br>
+        <label for="Name">Type of Issue</label>
+        <input type="text" name="issue" value="Enter your Issue"><br>
+        <label for="complaint">Type your complaint:</label>
+        <textarea id="complaint" name="complaint" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="success-message"></div>
+      <div id="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

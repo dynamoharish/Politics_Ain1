@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Discussion Forum</title>
+    <link rel="stylesheet" href="/discussion/style.css">
+  <style>
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      resize: none;
+    }
+    </style>
+  
+  </head>
+  <body>
+    <header>
+      <h1>Discussion Forum</h1>
+    </header>
+    <section id="forum">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <div id="messages">
+        <!-- Messages will be displayed here -->
+      </div>
+    </section>
+    <script src="/discussion/script.js"></script>
+  </body>
+</html>
